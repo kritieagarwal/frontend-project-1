@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(33, 36, 39);
+}
+
+#container {
+    width: 30%;
+    background-color: rgb(33, 36, 39);
+    box-shadow: 3px 3px 6px 4px red;
+    color: whitesmoke;
+    min-height: 350px;
+    text-align: center;
+    border-radius: 50%;
+    margin: auto;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#display {
+    font-weight: 700;
+    font-size: 4rem;
+}
+
+#buttons {
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+}
+
+#buttons button:hover {
+    cursor: pointer;
+}
